@@ -1,0 +1,35 @@
+.contact-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  color: #555;
+}
+
+.contact-form-box {
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.submit-btn {
+  width: 200px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.success-alert {
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .submit-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 15px 0;
+  border: 1px solid #e3e3e3;
+  width: 300px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-content {
+  font-size: 15px;
+  color: #444;
+}
